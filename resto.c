@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main (void)
 {
-int num;
+int n1;
 printf("digite um numero inteiro: ");
-scanf("%d",&num);
-if(num%2==0)//operador %
+scanf("%d",&n1);
+if(n1%2==0)//operador %
 {
 printf("Par");
 }
